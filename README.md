@@ -1,11 +1,11 @@
 # MovieReviewSentimentAnalysis
 
-##Application workflow
+## Application workflow
 
-###Step 1: load the dataset
-###Step 2 : Split the sentence with respect to whitespace. Treat every single word as independent. 
-###Step3: Calculate probability of a review being positive/ negative
-###Step 3: Count the presence of every word in every review and determine the probability of a word being of either negative connotation or positive connotation.
+### Step 1: load the dataset
+### Step 2 : Split the sentence with respect to whitespace. Treat every single word as independent. 
+### Step3: Calculate probability of a review being positive/ negative
+### Step 3: Count the presence of every word in every review and determine the probability of a word being of either negative connotation or positive connotation.
 
 Now to test if a review is positive or negative we use
 	Bayesian formula = p(A|B) = p(B|A) * p(A) / p(B)
